@@ -5,11 +5,11 @@
 @media (min-width:200px){ 
     .inicio{
         background-image: var(--gradiente);
-        padding-block:5rem;
+        padding-block:9rem;
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 70vh;
+        height: 80vh;
        
     }
     .inicio h1{
@@ -41,7 +41,7 @@
     }
     .quem-somos{
         background-color: var(--branco);
-        padding:2rem;
+        padding:4rem;
         text-align: center;
     }
     .quem-somos h2{
@@ -59,7 +59,7 @@
        text-align: center;
        font-family: 'Roboto', sans-serif;
        background-color: var(--wray);
-       padding:2rem;
+       padding:4rem;
 
     }
     .incentivo h3{
@@ -98,7 +98,7 @@
         background-color: var(--branco);
         padding-inline:2rem;
         padding-block:3rem;
-        max-height: 15rem;
+        max-height: 17rem;
         border-radius: 10px;
     }
     .etapas-grid{
@@ -144,7 +144,7 @@
         padding-block:1.5rem;
     }
     .frase img{
-        max-width:20rem;
+        max-width:21rem;
         padding-inline:0rem;
     }
     .ctt-inicio{
