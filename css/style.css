@@ -1,0 +1,593 @@
+@import "global.css";
+@import "colors.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
+@media (min-width:200px){ 
+    .inicio{
+        background-image: var(--gradiente);
+        padding-block:5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 70vh;
+       
+    }
+    .inicio h1{
+        color:var(--branco);
+        
+    }
+    .inicio p{
+        color: var(--wray);
+        font-family: 'Inter', sans-serif;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .inicio button{
+        border:none;
+        text-transform: uppercase;
+        color: var(--branco);
+        background-color: var(--orange);
+        padding:1rem;
+        font-weight: bold;
+        border-radius:10px;
+        font-family: 'Inter', sans-serif;
+    }
+    .inicio button:hover{
+        color: var(--blue);
+        background-color: var(--branco);
+    }
+    .inicio img{
+        display: none;
+    }
+    .quem-somos{
+        background-color: var(--branco);
+        padding:2rem;
+        text-align: center;
+    }
+    .quem-somos h2{
+    
+        letter-spacing: 1px;
+        padding-block:2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    .quem-somos p{
+    color:var(--p);
+    font-size: 'Inter', sans-serif;
+    }
+
+    .incentivo{
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+       background-color: var(--wray);
+       padding:2rem;
+
+    }
+    .incentivo h3{
+        color:var(--preto);
+        font-weight: 600;
+    }
+    .incentivo p{
+        padding-block:1.5rem;
+    }
+
+    .incentivo img{
+        border-radius: 50%;
+        max-width: 20rem;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .etapas{
+        text-align: center;
+        padding:2rem;
+        background-color: var(--wray-e);
+        font-family: 'Inter', sans-serif;
+    }
+    .etapas button a{
+        text-decoration: none;
+        letter-spacing: 0;
+    }
+    .etapas ul{
+        padding-inline:1.5rem;
+    }
+    .etapas h2{
+        padding-bottom: 2rem;
+    }
+    .cursos, .vagas{
+        background-color: var(--branco);
+        padding:2rem;
+        max-height: 15rem;
+        border-radius: 10px;
+    }
+    .etapas-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:2rem;
+    }
+    .etapas h3{
+        text-transform: uppercase;
+        padding-block:1rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--blue);
+        font-weight: bold;
+        letter-spacing: 1px;
+
+    }
+    .etapas button{
+        border-radius: 40px;
+        border:none;
+        background-color: var(--blue);
+        color:var(--branco);
+        padding:.8rem 1.5rem;
+        text-transform: uppercase;
+        margin:0.9rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .etapas button:hover{
+        background-color: var(--orange);
+        color:var(--branco);
+    }
+    
+    .frase{
+        background-color: var(--branco);
+        text-align: center;
+        padding:2rem;
+    }
+    .frase h3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    .frase p{
+        padding-block:1.5rem;
+    }
+    .frase img{
+        max-width:25rem;
+        padding-inline:0rem;
+    }
+    .ctt-inicio{
+        padding:2rem;
+        background-color: var(--wray);
+        text-align: center;
+    }
+    .ctt-inicio img{
+        border-radius: 50%;
+        max-width: 18rem;
+    }
+    .ctt-inicio h2{
+        padding-block:1.5rem;
+    }
+    .ctt-inicio p{
+        padding-block:.2rem;
+    }
+    /* #######  SOBRE #################*/
+
+    .equipe{
+        padding:2rem;
+        background-color: var(--branco);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .equipe p{
+        background-color: var(--wray);
+        margin-top:2rem;
+        padding:2rem;
+        border-radius: 10px;
+    }
+    .equipe-grid{
+        background-color: var(--wray);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1rem;
+        margin:0 auto;
+        padding:2rem 1rem;
+
+    }
+    .grid{
+        display:flex;
+        flex-direction: column;
+        margin:0 auto;
+        text-align: center;
+    }
+    .grid p{
+        padding-block: 1rem;
+       
+    }
+    .grid img{
+        border-radius: 50%;
+        max-width: 13rem;
+        
+        
+    }
+    .grid .linkedin{
+        max-width: 3rem;
+        margin:0 auto;
+    }
+    /* ####### CURSOS #################*/
+
+    .container-cursos img{
+        display:none;
+
+    }
+
+    .container-cursos{
+        padding:2rem;
+        background-color: var(--branco);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .container-cursos p{
+        background-color: var(--wray);
+        margin-top:2rem;
+        padding:2rem;
+        border-radius: 10px;
+    }
+    .container-cursos button, .container-vagas button{
+        border-radius: 10px;
+        border:none;
+        background-color: var(--orange);
+        color:var(--preto);
+        padding:.8rem 1.5rem;
+        text-transform: uppercase;
+        margin:2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+.container-cursos button:hover, .container-vagas button:hover{
+    background-color: var(--blue);
+    color:var(--branco);
+}
+
+    .h3-cursos{
+        background-color: var(--wray);
+        text-align: center;
+        padding:2rem 1rem;
+    }
+    .h3-cursos h3{
+        padding-bottom:2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    #cursos-grid{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1rem;
+    }
+    .c-grid{
+        padding-block:1rem;
+        border-radius: 10px;
+        background-color: var(--branco);
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-size: .9rem;
+    }
+    .c-grid img{
+        display:flex;
+        margin:0 auto;
+        max-width: 13rem;
+    }
+
+    .c-grid ul{
+        padding:2rem;
+    }
+    .c-grid button{
+        border:none;
+        border-radius:10px;
+        padding:.8rem .5rem;
+        letter-spacing: 0px;
+        display: flex;
+        margin:0 auto;
+        background-color: var(--blue);
+        color:var(--branco);    
+        font-weight: bold;
+    }
+    .c-grid button:hover, .v-grid button:hover{
+        background-color: var(--orange);
+        color:var(--branco); 
+    
+    }
+
+/* ####### VAGAS #################*/
+
+.container-vagas img{
+    display:none;
+
+}
+
+.container-vagas{
+    padding:2rem;
+    background-color: var(--branco);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-vagas p{
+    background-color: var(--wray);
+    margin-top:2rem;
+    padding:2rem;
+    border-radius: 10px;
+}
+.h3-vagas{
+    background-color: var(--wray);
+    text-align: center;
+    padding:2rem 1rem;
+}
+.h3-vagas h3{
+    padding-bottom:2rem;
+    font-family: 'Roboto', sans-serif;
+}
+#vagas-grid{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+.v-grid{
+    border-radius:10px;
+    padding-block:1rem;
+    background-color: var(--branco);
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+}
+.v-grid img{
+    display:flex;
+    margin:0 auto;
+    max-width: 13rem;
+}
+
+.v-grid ul{
+    padding:2rem;
+}
+.v-grid button{
+    border:none;
+    border-radius:10px;
+    padding:.5rem;
+    display: flex;
+    margin:0 auto;
+    background-color: var(--blue);
+    color:var(--branco);
+}
+
+/* ####### CONTATO #################*/
+
+.contato{
+    padding:2rem;
+    background-color: var(--branco);
+    text-align:center;
+}
+.contato h2{
+    padding-bottom:2rem;
+}
+.container-contato{
+    background-color: var(--wray);
+    padding:2rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:3rem;
+    border-radius: 10px;
+}
+.ctt-grid img{
+    padding-block:.6rem;
+    max-width: 5rem;
+}
+.ctt-grid p{
+    font-style: italic;
+}
+
+}
+
+/*########## DESKTOP #####################*/
+@media (min-width:766px){
+
+h2{
+    font-size:1.8rem;    
+}   
+p{
+    font-size:1.2rem;
+}
+/*########## Inicio #####################*/
+.inicio{
+    height: 90vh;
+   display: flex;
+}
+
+.inicio img{
+    display: block;
+    margin-left:7rem;
+    max-width: 30rem;
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+   
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.quem-somos{
+    padding-block:7rem;
+}
+.quem-somos p{
+padding-inline:15rem;
+}
+
+.incentivo{
+   padding:4rem;
+   display:flex;
+}
+.txt-incentivo{
+    padding-block: 10rem;
+    padding-inline:5rem;
+}
+.incentivo h3{
+    font-size:2rem;
+}
+.incentivo p{
+    padding-block:1.5rem;
+}
+
+.incentivo img{
+    max-width: 30rem;
+   
+}
+.etapas{
+    padding-block:6rem;
+}
+.etapas h2{
+    padding-bottom:4rem;
+}
+.cursos, .vagas{
+    padding:2rem;
+    max-width: 35rem;
+
+}
+.etapas-grid{
+    margin-inline:4rem;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+}
+
+.etapas ul{
+    padding-inline: 7rem;
+}
+
+.frase{
+    padding:4rem;
+}
+.frase h3{
+    font-size:2.2rem;
+    padding-inline:8rem;
+}
+.frase p{
+    padding-block:1.5rem;
+    padding-inline: 10rem;
+    text-align: end;
+}
+.frase img{
+    max-width:75rem;
+    padding-inline:0rem;
+}
+.ctt-inicio{
+    padding-block:2rem;
+    display: flex;
+}
+
+.ctt-inicio img{
+    border-radius: 50%;
+    max-width: 26rem;
+    margin-inline: 10rem;
+}
+.ctt-inicio-txt{
+    padding-block:6rem;
+}
+.ctt-inicio h2{
+    padding-block:1.5rem;
+}
+.ctt-inicio p{
+    padding-block:.2rem;
+} 
+
+/* #######  SOBRE #################*/
+
+.equipe p{
+    font-size: 1.2rem;
+    padding:7rem;
+    margin-inline:4rem;
+}
+.equipe-grid{
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+ 
+}
+.grid img{
+    border-radius: 50%;
+    max-width: 13rem;
+}
+
+
+/* ####### CURSOS #################*/
+.container-cursos{
+    display:flex;
+}
+.container-cursos img{
+    display:block;
+    max-width:28rem;
+    height:26rem;
+   margin:4rem;
+
+}
+.container-cursos p{
+    padding:6rem;
+    font-size: 1.2rem;
+    margin-inline: 4rem;
+}
+#cursos-grid{
+    padding-inline:2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2rem;
+}
+.c-grid{
+    padding-block:1rem;
+    border-radius: 10px;
+    background-color: var(--branco);
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+}
+/* ####### vagas #################*/
+.container-vagas{
+    display:flex;
+}
+.container-vagas img{
+    display:block;
+    max-width:28rem;
+    height:28rem;
+    margin:4rem;
+   
+
+}
+.container-vagas p{
+    padding:6rem;
+    font-size: 1.2rem;
+    margin-inline: 4rem;
+}
+#vagas-grid{
+    padding-inline:2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2rem;
+}
+.v-grid{
+    padding-block:1rem;
+    border-radius: 10px;
+    background-color: var(--branco);
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+}
+/* ####### CONTATO #################*/
+
+
+.container-contato{
+
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    margin-inline:5rem;
+}
+.ctt-grid img{
+    padding-block:1rem;
+    max-width: 6rem;
+}
+
+}

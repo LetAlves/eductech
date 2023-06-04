@@ -1,0 +1,10 @@
+:root{
+    --preto: #0e0d0d;
+    --branco: #fff;
+    --wray: #E5E5E5;
+    --wray-e:#D9D9D9;
+    --p: #393838;
+    --orange: #FCA311;
+    --blue: #14213D;
+    --gradiente: linear-gradient(180deg, #18061d 0, #170a21 25%, #180a33 50%, #0a1254 75%, #010210 100%);
+}
