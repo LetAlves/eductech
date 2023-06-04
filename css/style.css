@@ -96,7 +96,8 @@
     }
     .cursos, .vagas{
         background-color: var(--branco);
-        padding:2rem;
+        padding-inline:2rem;
+        padding-block:3rem;
         max-height: 15rem;
         border-radius: 10px;
     }
@@ -143,7 +144,7 @@
         padding-block:1.5rem;
     }
     .frase img{
-        max-width:25rem;
+        max-width:20rem;
         padding-inline:0rem;
     }
     .ctt-inicio{
@@ -366,8 +367,8 @@
     background-color: var(--wray);
     padding:2rem;
     display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:1rem;
+    grid-template-columns: repeat(1,1fr);
+    gap:2rem;
     border-radius: 10px;
 }
 .ctt-grid img{
