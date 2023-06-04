@@ -72,7 +72,7 @@
 
     .incentivo img{
         border-radius: 50%;
-        max-width: 20rem;
+        max-width: 18rem;
         display: flex;
         margin: 0 auto;
         justify-content: center;
@@ -197,7 +197,7 @@
     }
     .grid img{
         border-radius: 50%;
-        max-width: 13rem;
+        max-width: 10rem;
         
         
     }
@@ -267,7 +267,7 @@
     .c-grid img{
         display:flex;
         margin:0 auto;
-        max-width: 13rem;
+        max-width: 11rem;
     }
 
     .c-grid ul{
@@ -336,7 +336,7 @@
 .v-grid img{
     display:flex;
     margin:0 auto;
-    max-width: 13rem;
+    max-width: 11rem;
 }
 
 .v-grid ul{
@@ -367,7 +367,7 @@
     padding:2rem;
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    gap:3rem;
+    gap:1rem;
     border-radius: 10px;
 }
 .ctt-grid img{
